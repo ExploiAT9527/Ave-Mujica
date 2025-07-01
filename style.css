@@ -49,13 +49,16 @@ h1{
     text-align:center;
 }
 
-.gallary{
-    display:flex;
+.gallary {
+    display: flex;
     flex-wrap: wrap;
+    justify-content:space-around;
 }
+
 .gallary div img {
     border-radius: 15px 0px 15px 0px;
 }
+
 .item{
     display:inline;
     
