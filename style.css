@@ -53,6 +53,9 @@ h1{
     display:flex;
     flex-wrap: wrap;
 }
+.gallary div img {
+    border-radius: 15px 0px 15px 0px;
+}
 .item{
     display:inline;
     
