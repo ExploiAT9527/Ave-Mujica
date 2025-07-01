@@ -51,7 +51,7 @@ h1{
 
 .gallary{
     display:flex;
-    
+    flex-wrap: wrap;
 }
 .item{
     display:inline;
