@@ -59,6 +59,12 @@ h1{
     border-radius: 15px 0px 15px 0px;
 }
 
+.gallary div p {
+    color: #E9CC8D;
+    text-align:center;
+    margin-top:10px;
+    
+}
 .item{
     display:inline;
     
