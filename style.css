@@ -21,10 +21,7 @@ div + p{
 body {
     font-weight: 100;
     font-size: 200%;
-    background-image: url(resource/Background.png);
-    background-repeat:no-repeat;
-    background-position:center;
-    background-size:cover;
+    background-color: #E20068;
 }
 
 .skin {
