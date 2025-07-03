@@ -4,14 +4,20 @@ footer{
 
 header {
     font-weight: 100;
-    background-color: #E20068;
     font-size: initial;
     text-align: center;
+    color: #E9CC8D;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: #B8276F;
+    background: linear-gradient(180deg, rgba(184, 39, 111, 1) 4%,rgba(226, 0, 104, 1) 95%);
 }
 
 header i {
     font-size: 80px;
-    color: #E9CC8D;
+    color: black;
 }
 
 div + p{
@@ -21,7 +27,7 @@ div + p{
 body {
     font-weight: 100;
     font-size: 200%;
-    background: #E20068;
+    background: #B8276F;
     background: linear-gradient(180deg, rgba(184, 39, 111, 1) 4%, rgba(226, 0, 104, 1) 11%, rgba(184, 39, 111, 1) 95%);
 }
 
@@ -50,11 +56,13 @@ h1{
 .gallary {
     display: flex;
     flex-wrap: wrap;
-    justify-content:space-around;
+    justify-content:space-evenly;
 }
 
 .gallary div img {
     border-radius: 15px 0px 15px 0px;
+    width:288px;
+    height:auto;
 }
 
 .gallary div p {
@@ -66,4 +74,7 @@ h1{
 .item{
     display:inline;
     
+}
+main {
+    margin-top: 150px;
 }
