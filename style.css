@@ -22,7 +22,7 @@ body {
     font-weight: 100;
     font-size: 200%;
     background: #E20068;
-    background: linear-gradient(178deg, rgba(226, 0, 104, 1) 10%, rgba(184, 39, 111, 1) 95%);
+    background: linear-gradient(180deg, rgba(184, 39, 111, 1) 4%, rgba(226, 0, 104, 1) 11%, rgba(184, 39, 111, 1) 95%);
 }
 
 .skin {
