@@ -36,7 +36,7 @@ h1 {
 .gallary {
     display: flex;
     flex-wrap: wrap;
-    justify-content:space-evenly;
+    justify-content:center;
 }
 
 .gallary div img {
@@ -53,7 +53,8 @@ h1 {
 
 
 /*Live*/
-.live{
-    display:flex;
-    justify-content:space-evenly;
+.live {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
