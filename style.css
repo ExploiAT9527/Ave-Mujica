@@ -1,34 +1,21 @@
+/*Footer*/
 footer{
     font-size:12px;
 }
 
+/*Header*/
 header {
-    font-weight: 100;
     font-size: initial;
     text-align: center;
     color: #E9CC8D;
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    background: #B8276F;
-    background: linear-gradient(180deg, rgba(184, 39, 111, 1) 4%,rgba(226, 0, 104, 1) 95%);
 }
 
-header i {
-    font-size: 80px;
-    color: black;
-}
-
-div + p{
-    text-align:center;
-}
-
+/*Body*/
 body {
     font-weight: 100;
     font-size: 200%;
-    background: #B8276F;
-    background: linear-gradient(180deg, rgba(184, 39, 111, 1) 4%, rgba(226, 0, 104, 1) 11%, rgba(184, 39, 111, 1) 95%);
+    background: #141a2b;
+    background: linear-gradient(180deg, rgba(20, 26, 43, 1) 20%, rgba(8, 5, 41, 1) 90%);
 }
 
 .skin {
@@ -39,20 +26,13 @@ body {
     color: #E9CC8D;
 }
 
-.live{
-    display:flex;
-    align-content:center;
-    justify-content:space-between;
+h1 {
+    color: #F5EAE6;
+    text-align: center;
 }
 
-.live p{
-    margin:0;
-}
 
-h1{
-    text-align:center;
-}
-
+/*Members*/
 .gallary {
     display: flex;
     flex-wrap: wrap;
@@ -68,13 +48,12 @@ h1{
 .gallary div p {
     color: #E9CC8D;
     text-align:center;
-    margin-top:10px;
-    
+    margin-top:10px; 
 }
-.item{
-    display:inline;
-    
-}
-main {
-    margin-top: 150px;
+
+
+/*Live*/
+.live{
+    display:flex;
+    justify-content:space-evenly;
 }
