@@ -42,7 +42,7 @@ h1 {
 .gallary div img {
     border-radius: 15px 0px 15px 0px;
     width:288px;
-    height:auto;
+    height:auto; 
 }
 
 .gallary div p {
@@ -50,7 +50,22 @@ h1 {
     text-align: center;
     margin-top: 10px;
 }
+.stage{
+    position: relative;
+    overflow:hidden;
+}
+.curtain {
+    position: absolute;
+    background-color: #141a2b;
+    top: 0;
+    width: 100%;
+    height: 79%;
+    transition: all 1s ease;
+}
 
+.open .curtain{
+    transform:translateY(-100%);
+}
 
 /*Live*/
 .live {
