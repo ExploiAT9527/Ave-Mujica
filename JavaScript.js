@@ -1,4 +1,4 @@
-const buttons = document.querySelectorAll(".button");
+const buttons = document.querySelectorAll(".switch");
 const stages = document.querySelectorAll(".stage");
 buttons.forEach((btn, index) => {
     btn.addEventListener("click", () => {
