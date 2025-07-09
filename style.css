@@ -41,8 +41,9 @@ h1 {
 
 .gallary div img {
     border-radius: 15px 0px 15px 0px;
-    width:288px;
-    height:auto; 
+    width: 288px;
+    height: auto;
+    border: 1px solid transparent;
 }
 
 .gallary div p {
@@ -50,16 +51,21 @@ h1 {
     text-align: center;
     margin-top: 10px;
 }
+
+.stage:hover {
+    border: 1px solid white;
+    border-top:none;
+}
 .stage{
     position: relative;
+    width:288px;
+    height:352px;
     overflow:hidden;
 }
 .curtain {
     position: absolute;
     background-color: #141a2b;
     top: 0;
-    width: 100%;
-    height: 79%;
     transition: all 1s ease;
 }
 
