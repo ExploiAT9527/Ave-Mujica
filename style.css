@@ -54,7 +54,9 @@ h1 {
 
 .stage:hover {
     border: 1px solid white;
-    border-top:none;
+    border-bottom: none;
+    border-left: none;
+    border-right:none;
 }
 .stage{
     position: relative;
